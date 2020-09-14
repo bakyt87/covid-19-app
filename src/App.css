@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.display-1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'IM Fell English SC', serif;
+}
+.display-2{
+    color: #00bacf;
+    text-align: left;
+    margin-top: 45px;
+    font-family: 'IM Fell English SC', serif;
+}
+.nums{
+    color:#ff3068;
+    font-family: 'Orbitron', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tableFixHead          { overflow-y: auto; height: 500px; }
+.tableFixHead thead th { position: sticky; top: 0; }
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; font-size: 25px;}
+th     { background:#bdbbbb; }
+tr :hover{
+    background-color: turquoise;
+}
+.display-4 { text-align: right;
+    font-family: 'IM Fell English SC', serif;
+color: white; font-size: 25px;}  
+p{color: white;font-size: 25px;
+    font-family: 'IM Fell English SC', serif; }
+.container-nf{ height:500px;}
+.navbar{
+    background-color:#bdbbbb ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+a, .navbar-brand
+{color: black; font-size: 25px;
+    font-family: 'IM Fell English SC', serif; }
